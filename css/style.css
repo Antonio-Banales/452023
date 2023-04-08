@@ -1,0 +1,49 @@
+.container {
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+    border: 3px solid dodgerblue;
+    border-radius: 5px;
+}
+
+.nav-1 {
+    text-align: center;
+    text-decoration: none;
+}
+.item {
+    width: 150px;
+    height: 150px;
+    background-color: aquamarine;
+}
+
+.container {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.item-1 {
+    font-size: 1.5rem;
+    border: 2px solid dodgerblue;
+    padding: 0px 0 28px 0;
+    background-color: white;
+}
+.item-2 {
+    font-style: italic;
+    color: blue;
+    border: 2px solid dodgerblue;
+}
+.item-3 {
+    font-style:oblique;
+    font-size: 2rem;
+    border: 3px solid salmon;
+    padding: 18px 4px;
+}
+.lorem-1 {
+    font-size: small;
+}
+.text1 {
+    color:rgb(5, 249, 168);
+    font-style: italic;
+    font-size: large;
+}
