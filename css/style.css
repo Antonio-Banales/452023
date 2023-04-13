@@ -8,12 +8,12 @@
  
 nav {
     background-color: dodgerblue;
-    height: 90px;
+    height: 70px;
     width: 100%;
 }
 
-label {
-    color:white;
+label.logo {
+    color:green;
     font-size: 35px;
     line-height: 80px;
     padding: 0 100px;
@@ -26,8 +26,13 @@ label {
 .nav ul li {
     display: inline-block;
     line-height: 80px;
+    margin: 0 5px;
 }
-
+ .nav ul li a {
+    color:white;
+    font-size: 18px;
+    text-transform: uppercase;
+ }
 .container {
     width: 80%;
     height: 300px;
